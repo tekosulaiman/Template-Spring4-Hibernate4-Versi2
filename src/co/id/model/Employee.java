@@ -1,13 +1,5 @@
 package co.id.model;
 
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
-
-
-
 import java.io.Serializable;
 import javax.persistence.Basic;
 import javax.persistence.Column;
@@ -19,8 +11,7 @@ import javax.persistence.Table;
 import javax.xml.bind.annotation.XmlRootElement;
 
 /**
- *
- * @author Tom
+ * @author tombisnis@yahoo.com
  */
 @Entity
 @Table(name = "employee")
@@ -104,5 +95,4 @@ public class Employee implements Serializable {
     public String toString() {
         return "co.id.model.Employee[ id=" + id + " ]";
     }
-    
 }
